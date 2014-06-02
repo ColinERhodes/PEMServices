@@ -4,7 +4,7 @@ var ImagingMock = [
          Date : '1/1/2013',
          Modality : "CT",
          URL : 'https://iwerp-demo.ehgt.com/eunityServer/eunityViewer?studyUID=1.2.250.1.59.453.859.2960729188.3728.1274191976.2.1.1&user=TestUser&CLOAccessKeyID=UtqOAZHwVvMqJCKzVvVh&expiry=1402328733&enableRelatedStudies=true&signature=mocrKyKv3q%2f9FPtNs4qLJ5KkvhY%3d',
-         iPADURL : 'URLToLaunch = "eunity://?host=iwerp-demo.ehgt.com&port=443&protocol=https&studyUID=1.2.250.1.59.453.859.2960729188.3728.1274191976.2.1.1&user=DemoUser&password=demo";'
+         iPADURL : 'eunity://?host=iwerp-demo.ehgt.com&port=443&protocol=https&studyUID=1.2.250.1.59.453.859.2960729188.3728.1274191976.2.1.1&user=DemoUser&password=demo'
         }
     ];
     
