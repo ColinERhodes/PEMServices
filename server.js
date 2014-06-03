@@ -13,6 +13,7 @@ var patients = require('./our_modules/Patients.js');
 var records = require('./our_modules/Records.js');
 var images = require('./our_modules/Imaging.js');
 var messages = require('./our_modules/Messages.js');
+var appointments = require('./our_modules/Appointments.js');
 
 var server = restify.createServer({
     name : "ReferralAPI"
@@ -43,6 +44,9 @@ server.get({path:PATH + '/Customers/:CustomerName/Patients/:PatientName/Messages
 
 server.get({path:PATH + '/Customers/:CustomerName/Patients/:PatientName/Images', version : '0.0.1'}, images.getImaging);
 server.get({path:PATH + '/Customers/:CustomerName/Patients/:PatientName/Images/:ImageId/Image', version : '0.0.1'}, images.getImage);
+
+server.get({path:PATH + '/Customers/:CustomerName/Patients/:PatientName/Appointments', version : '0.0.1'}, appointments.getAppointments);
+server.get({path:PATH + '/Customers/:CustomerName/Patients/:PatientName/Images/:AppointmentId/Appointments', version : '0.0.1'}, appointments.getAppointment);
 
 server.get({path:PATH + '/Customers', version : '0.0.1'}, customers.getCustomers);
 server.get({path:PATH + '/Customers/:CustomerName', version : '0.0.1'}, customers.getCustomer);
