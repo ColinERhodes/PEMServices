@@ -2,21 +2,21 @@ var RecordsMock = [
     {
          Description :  'Clinical Summary',
          Date : '1/1/2013',
-         Status : "View",
+         Provider : 'Dr Hart',
          URL : '../../PDFs/Sample_Clinical_Summary.pdf', 
          isNew : false
         },
             {
          Description :  'Cardiology note',
          Date : '1/1/2012',
-         Status : "View",
+         Provider : "Memorial Hospital",
          URL : '../../PDFs/cardionote.pdf', 
          isNew : true
         },
             {
          Description :  'Radiology Report',
          Date : '1/1/2011',
-         Status : "View",
+         Provider : "Dr Angelotti",
          URL : '../../PDFs/sample-radiology-report.pdf', 
          isNew : false
         }
