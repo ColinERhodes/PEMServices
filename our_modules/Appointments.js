@@ -4,7 +4,13 @@ var mockAppointments = [
         Date :'01/01/2013',
         Time: '8:20pm',
         Provider : 'Dr Hunt'
-    }
+    },
+       {
+        Location : 'Rochester Breast Imaging',
+        Date :'08/03/2013',
+        Time: '10:20pm',
+        Provider : 'Dr Aneglotti'
+    } 
 ];
     
 var getAppointments = function(req,res,next) { 
