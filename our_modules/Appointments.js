@@ -1,6 +1,6 @@
 var mockAppointments = [
     {
-        Location : 'Memorial',
+        Location : 'Memorial Hospital',
         Date :'01/01/2013',
         Time: '8:20pm',
         Provider : 'Dr Hunt'
@@ -10,6 +10,12 @@ var mockAppointments = [
         Date :'08/03/2013',
         Time: '10:20pm',
         Provider : 'Dr Aneglotti'
+    } ,
+       {
+        Location : 'Rochester General Hospital',
+        Date :'01/04/2013',
+        Time: '10:00am',
+        Provider : 'Dr Hart'
     } 
 ];
     
