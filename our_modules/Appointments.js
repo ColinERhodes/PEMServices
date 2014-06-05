@@ -1,9 +1,9 @@
 var mockAppointments = [
     {
-        Location : 'Rhodes Hospital',
+        Location : 'Memorial',
         Date :'01/01/2013',
         Time: '8:20pm',
-        Provider : 'Colin Rhodes'
+        Provider : 'Dr Hunt'
     }
 ];
     
