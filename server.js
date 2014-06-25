@@ -23,7 +23,7 @@ server.use(restify.queryParser());
 server.use(restify.bodyParser());
 server.use(restify.CORS());
 
-var PATH='/api';
+var PATH='/api'; // Looks good.
 
 server.get({path:PATH + '/Users', version : '0.0.1'}, users.getUsers);
 server.get({path:PATH + '/Users/:UserName', version : '0.0.1'}, users.getUser);
